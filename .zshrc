@@ -7,12 +7,6 @@
 ################################################################
 export PATH=$PATH:$HOME/usr/bin:/Users/icchi/programs/sh
 
-# node.js
-export PATH=$PATH:$HOME/.nodebrew/current/bin
-
-# Android
-export PATH=$PATH:$HOME/Library/Android/sdk/tools:$HOME/Library/Android/sdk/platform-tools:$HOME/Library/Android/sdk/android-ndk-r12b/
-
 # golang
 if [ -x "`which go`" ]; then
     export GOROOT=`go env GOROOT`
@@ -25,27 +19,13 @@ fi
 ################################################################
 # Alias
 ################################################################
-alias rm='rmtrash'
 alias tree='tree -C' #treeの色付け
-alias imgsize='sips --getProperty pixelWidth --getProperty pixelHeight'
-alias gvim='mvim'
-alias o='open'
-alias ls='ls -GF'
 
 # for java
 alias javac='javac -J-Dfile.encoding=UTF-8'
 alias java='java -Dfile.encoding=UTF-8'
 
-# for Arduino
-alias arduino='/Applications/Arduino.app/Contents/MacOS/Arduino'
-
-# 無線LAN
-alias airport='/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport'
-alias wifipower='networksetup -setairportpower en0'
-
-# Mac Vim
-export EDITOR=/Applications/MacVim.app/Contents/MacOS/Vim
-alias mvim='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/bin/mvim "$@"'
+export EDITOR=vim
 ################################################################
 
 
@@ -91,12 +71,6 @@ eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 # virtualenvでpromptを変更しない
 export VIRTUAL_ENV_DISABLE_PROMPT=1
-
-### Virtualenvwrapper
-#if [ -f /Users/icchi/.pyenv/shims/virtualenvwrapper.sh ]; then
-#    export WORKON_HOME=$HOME/.virtualenvs
-#    source /Users/icchi/.pyenv/shims/virtualenvwrapper.sh
-#fi
 
 # pythonのimport error対策
 export LC_ALL='ja_JP.UTF-8'
