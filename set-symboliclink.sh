@@ -17,7 +17,7 @@
 set -eu
 trap catch ERR
 function catch() {
-        echo "[ERROR]Fail in "$0
+    echo "[ERROR]Fail in "$0
 }
 
 # const
