@@ -5,7 +5,7 @@
 
 Download dotfiles & make set symbolic link on Home direcotory
 ```
-git clone <ripository url>
+git clone --recursive <ripository url> # clone with submodules (or git submodule init;git submodule update)
 cd <ripository>
 sh set-symboliclink.sh
 ```
