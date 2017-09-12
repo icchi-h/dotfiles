@@ -5,7 +5,7 @@
 ################################################################
 # PATH
 ################################################################
-export PATH=$PATH:$HOME/usr/bin:/Users/icchi/programs/sh
+export PATH=$PATH:$HOME/usr/bin:
 
 # golang
 if [ -x "`which go`" ]; then
