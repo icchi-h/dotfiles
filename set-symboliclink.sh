@@ -23,7 +23,7 @@ function catch() {
 # const
 SCRIPT_PATH=`dirname "${0}"`
 SCRIPT_NAME=`basename "${0}"`
-EXECUTION_LIST=($SCRIPT_NAME "README.md")
+EXECUTION_LIST=($SCRIPT_NAME "README.md" ".gitmodules")
 
 
 # roop for processing
