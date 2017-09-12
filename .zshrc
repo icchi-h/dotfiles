@@ -5,7 +5,7 @@
 ################################################################
 # PATH
 ################################################################
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/usr/bin:/Users/icchi/programs/sh
+export PATH=$PATH:$HOME/usr/bin:/Users/icchi/programs/sh
 
 # node.js
 export PATH=$PATH:$HOME/.nodebrew/current/bin
