@@ -92,12 +92,6 @@ eval "$(pyenv virtualenv-init -)"
 # virtualenvでpromptを変更しない
 export VIRTUAL_ENV_DISABLE_PROMPT=1
 
-### Virtualenvwrapper
-#if [ -f /Users/icchi/.pyenv/shims/virtualenvwrapper.sh ]; then
-#    export WORKON_HOME=$HOME/.virtualenvs
-#    source /Users/icchi/.pyenv/shims/virtualenvwrapper.sh
-#fi
-
 # pythonのimport error対策
 export LC_ALL='ja_JP.UTF-8'
 ################################################################
