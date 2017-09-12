@@ -46,7 +46,7 @@ alias wifipower='networksetup -setairportpower en0'
 # Mac Vim
 export EDITOR=/Applications/MacVim.app/Contents/MacOS/Vim
 alias mvim='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/bin/mvim "$@"'
-alias vim='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/bin/Vim "$@"'
+#alias vim='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/bin/Vim "$@"'
 ################################################################
 
 
