@@ -29,7 +29,6 @@ alias rm='rmtrash'
 alias tree='tree -C' #treeの色付け
 alias imgsize='sips --getProperty pixelWidth --getProperty pixelHeight'
 alias gvim='mvim'
-alias vim='mvim'
 alias o='open'
 alias ls='ls -GF'
 
