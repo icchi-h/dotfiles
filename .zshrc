@@ -128,7 +128,7 @@ zplug "zsh-users/zsh-syntax-highlighting"
 zplug "ascii-soup/zsh-url-highlighter"
 
 # history
-zplub "zsh-history-substring-search"
+zplug "zsh-users/zsh-history-substring-search"
 bindkey '^P' history-beginning-search-backward
 bindkey '^N' history-beginning-search-forward
 
