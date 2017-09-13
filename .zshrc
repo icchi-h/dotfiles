@@ -85,14 +85,7 @@ export ZPLUG_HOME=~/.zplug
 
 # Theme
 autoload -U promptinit; promptinit
-prompt pure
-
-# enhancd
-zplug "b4b4r07/enhancd", use:init.sh
-# ENHANCD_HOOK_AFTER_CD=ls
-
-# wakatime
-zplug "wbinglee/zsh-wakatime"
+prompt adam2
 
 # syntax
 zplug "chrissicool/zsh-256color"
@@ -106,9 +99,15 @@ zplug "zsh-users/zsh-history-substring-search"
 bindkey '^P' history-beginning-search-backward
 bindkey '^N' history-beginning-search-forward
 
-# tools
-zplug "marzocchi/zsh-notify"
-#zplug "oknowton/zsh-dwim"
+# enhancd
+zplug "b4b4r07/enhancd", use:init.sh
+# ENHANCD_HOOK_AFTER_CD=ls
+
+# wakatime
+zplug "wbinglee/zsh-wakatime"
+
+#git
+zplug "plugins/git",   from:oh-my-zsh
 
 
 # Install plugins if there are plugins that have not been installed
