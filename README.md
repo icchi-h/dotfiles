@@ -27,6 +27,9 @@ Install zsh plugin using zplug
 zplug install
 ```
 
+Install fzy for using enhancd package
+<https://github.com/jhawthorn/fzy#installation>
+
 
 Install vim plugin using dein
 ```
