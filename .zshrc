@@ -69,9 +69,9 @@ export PATH="${PYENV_ROOT}/bin:$PATH"
 eval "$(pyenv init -)"
 
 # virtualenv
-eval "$(pyenv virtualenv-init -)"
+# eval "$(pyenv virtualenv-init -)"
 # virtualenvでpromptを変更しない
-export VIRTUAL_ENV_DISABLE_PROMPT=1
+# export VIRTUAL_ENV_DISABLE_PROMPT=1
 
 # pythonのimport error対策
 export LC_ALL='ja_JP.UTF-8'
