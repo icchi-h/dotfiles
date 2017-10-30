@@ -19,6 +19,11 @@ if [ -x "`which go`" ]; then
     export GOPATH=$HOME/Programs/go
     export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 fi
+
+# React-Native
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/platform-tools
 ################################################################
 
 
