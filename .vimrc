@@ -128,6 +128,7 @@ call dein#add('alvan/vim-closetag')
 call dein#add('tomtom/tcomment_vim')
 call dein#add('tpope/vim-surround')
 call dein#add('scrooloose/syntastic')
+call dein#add('posva/vim-vue')
 
 " You can specify revision/branch/tag.
 call dein#add('Shougo/vimshell', { 'rev': '3787e5' })
