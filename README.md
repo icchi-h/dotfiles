@@ -20,6 +20,9 @@ which zsh
 
 # set main shell
 chsh -s <zsh path>
+(** EC2の場合)
+sudo chsh ec2-user
+<zsh path>
 ```
 
 Install zsh plugin using zplug
