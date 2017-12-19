@@ -25,6 +25,12 @@ sudo chsh ec2-user
 <zsh path>
 ```
 
+Install zsh prompt
+<https://github.com/sindresorhus/pure#getting-started>
+```
+npm install --global pure-prompt
+```
+
 Install zsh plugin using zplug
 ```
 zplug install
