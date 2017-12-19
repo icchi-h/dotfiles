@@ -11,7 +11,7 @@ export PATH=$PATH:$HOME/usr/bin:/Users/icchi/programs/sh
 export PATH=$PATH:$HOME/.nodebrew/current/bin
 
 # Android
-export PATH=$PATH:$HOME/Library/Android/sdk/tools:$HOME/Library/Android/sdk/platform-tools:$HOME/Library/Android/sdk/android-ndk-r12b/
+export PATH=$PATH:$HOME/Library/Android/sdk/tools:$HOME/Library/Android/sdk/platform-tools:$HOME/Library/Android/sdk/android-ndk-r12b
 
 # golang
 if [ -x "`which go`" ]; then
@@ -51,6 +51,9 @@ alias wifipower='networksetup -setairportpower en0'
 # Mac Vim
 export EDITOR=/Applications/MacVim.app/Contents/MacOS/Vim
 alias mvim='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/bin/mvim "$@"'
+
+# homebrew config error for pyenv
+alias brew="PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin brew"
 ################################################################
 
 
