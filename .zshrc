@@ -111,6 +111,8 @@ export ZPLUG_HOME=~/.zplug
 # Theme
 autoload -U promptinit; promptinit
 prompt pure
+zplug "mafredri/zsh-async", from:github
+zplug "sindresorhus/pure", use:pure.zsh, from:github, as:theme
 
 # syntax
 zplug "chrissicool/zsh-256color"
