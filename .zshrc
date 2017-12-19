@@ -114,12 +114,15 @@ prompt pure
 zplug "mafredri/zsh-async", from:github
 zplug "sindresorhus/pure", use:pure.zsh, from:github, as:theme
 
-# syntax
+# syntax highlight
 zplug "chrissicool/zsh-256color"
 zplug "Tarrasch/zsh-colors"
-zplug "zsh-users/zsh-completions"
 zplug "zsh-users/zsh-syntax-highlighting"
 zplug "ascii-soup/zsh-url-highlighter"
+
+# completion
+zplug "zsh-users/zsh-completions"
+zplug 'zsh-users/zsh-autosuggestions', defer:2  
 
 # history
 zplug "zsh-users/zsh-history-substring-search"
@@ -138,7 +141,6 @@ zplug "wbinglee/zsh-wakatime"
 
 # tools
 zplug "marzocchi/zsh-notify"
-
 
 # Install plugins if there are plugins that have not been installed
 if ! zplug check --verbose; then
