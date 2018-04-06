@@ -11,7 +11,7 @@ export PATH=$PATH:$HOME/usr/bin:/Users/icchi/programs/sh
 export PATH=$PATH:$HOME/.nodebrew/current/bin
 
 # ruby
-export PATH="$HOME/.rbenv/bin:$PATH"
+export PATH=$HOME/.rbenv/bin:$PATH
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 # Android
