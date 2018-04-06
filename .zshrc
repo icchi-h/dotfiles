@@ -10,6 +10,10 @@ export PATH=$PATH:$HOME/usr/bin:/Users/icchi/programs/sh
 # node.js
 export PATH=$PATH:$HOME/.nodebrew/current/bin
 
+# ruby
+export PATH="$HOME/.rbenv/bin:$PATH"
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
 # Android
 export PATH=$PATH:$HOME/Library/Android/sdk/tools:$HOME/Library/Android/sdk/platform-tools:$HOME/Library/Android/sdk/android-ndk-r12b
 
