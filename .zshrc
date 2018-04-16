@@ -7,6 +7,9 @@
 ################################################################
 export PATH=$PATH:$HOME/usr/bin:
 
+# node.js
+export PATH=$HOME/.nodebrew/current/bin:$PATH
+
 # golang
 if [ -x "`which go`" ]; then
     export GOROOT=`go env GOROOT`
