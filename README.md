@@ -21,6 +21,7 @@ which zsh
 # set main shell
 chsh -s <zsh path>
 (** EC2の場合)
+#(amazon linux2の場合) sudo yum install util-linux-user
 sudo chsh ec2-user
 <zsh path>
 ```
