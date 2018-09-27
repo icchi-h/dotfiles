@@ -116,10 +116,12 @@ source ~/.zplug/init.zsh
 export ZPLUG_HOME=~/.zplug
 
 # Theme
-autoload -U promptinit; promptinit
-prompt pure
 zplug "mafredri/zsh-async", from:github
-zplug "sindresorhus/pure", use:pure.zsh, from:github, as:theme
+# zplug "sindresorhus/pure", use:pure.zsh, from:github, as:theme
+# prompt pure
+zplug denysdovhan/spaceship-prompt, use:spaceship.zsh, from:github, as:theme
+autoload -U promptinit; promptinit
+prompt spaceship
 
 # syntax highlight
 zplug "chrissicool/zsh-256color"
