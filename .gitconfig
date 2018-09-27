@@ -4,7 +4,7 @@
 [color]
 	ui = auto
 [core]
-	excludesfile = /Users/icchi/.gitignore
+	excludesfile = ~/.gitignore
 	editor = vim -c \"set fenc=utf-8\"
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
