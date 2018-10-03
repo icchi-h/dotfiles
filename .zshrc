@@ -11,7 +11,8 @@ export PATH=$PATH:$HOME/usr/bin:
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 
 # golang
-if [ -x "`which go`" ]; then
+which go > /dev/null 2>&1
+if [ $? -eq 0 ] ; then # コマンドが存在すれば
     export GOROOT=`go env GOROOT`
     export GOPATH=$HOME/Programs/go
     export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
@@ -69,7 +70,7 @@ set -o ignoreeof
 # pyenv
 export PYENV_ROOT="${HOME}/.pyenv"
 export PATH="${PYENV_ROOT}/bin:$PATH"
-eval "$(pyenv init -)"
+which pyenv > /dev/null 2>&1 && eval "$(pyenv init -)"
 
 # virtualenv
 # eval "$(pyenv virtualenv-init -)"
