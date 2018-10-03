@@ -123,6 +123,11 @@ zplug denysdovhan/spaceship-prompt, use:spaceship.zsh, from:github, as:theme
 autoload -U promptinit; promptinit
 prompt spaceship
 
+# spaceship theme setting ###################
+# disable kubeutil status
+export SPACESHIP_KUBECONTEXT_SHOW=false
+#############################################
+
 # syntax highlight
 zplug "chrissicool/zsh-256color"
 zplug "Tarrasch/zsh-colors"
