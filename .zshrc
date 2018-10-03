@@ -154,7 +154,7 @@ zplug "plugins/git",   from:oh-my-zsh
 zplug "wbinglee/zsh-wakatime"
 
 # tools
-zplug "marzocchi/zsh-notify"
+# zplug "marzocchi/zsh-notify"
 
 # Install plugins if there are plugins that have not been installed
 if ! zplug check --verbose; then
