@@ -8,7 +8,7 @@
 export PATH=$PATH:$HOME/usr/bin:
 
 # nvm (node.js)
-export NVM_DIR="${XDG_CONFIG_HOME/:-$HOME/.}nvm"
+export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
 # golang
