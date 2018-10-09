@@ -7,8 +7,9 @@
 ################################################################
 export PATH=$PATH:$HOME/usr/bin:
 
-# node.js
-export PATH=$HOME/.nodebrew/current/bin:$PATH
+# nvm (node.js)
+export NVM_DIR="${XDG_CONFIG_HOME/:-$HOME/.}nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
 # golang
 which go > /dev/null 2>&1
