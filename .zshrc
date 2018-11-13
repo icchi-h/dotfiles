@@ -5,7 +5,7 @@
 ################################################################
 # PATH
 ################################################################
-export PATH=$PATH:$HOME/usr/bin:
+export PATH=$PATH:$HOME/bin:
 
 # nvm (node.js)
 export NVM_DIR="$HOME/.nvm"
