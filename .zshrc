@@ -145,6 +145,7 @@ zplug 'zsh-users/zsh-autosuggestions', defer:2
 zplug "zsh-users/zsh-history-substring-search"
 bindkey '^P' history-beginning-search-backward
 bindkey '^N' history-beginning-search-forward
+# zplug "jimeh/zsh-peco-history"
 
 # enhancd
 zplug "b4b4r07/enhancd", use:init.sh
