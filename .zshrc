@@ -58,6 +58,9 @@ alias mvim='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/bin/mvim "$@"
 
 # homebrew config error for pyenv
 alias brew="PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin brew"
+
+# application
+alias typora="open -a typora"
 ################################################################
 
 
