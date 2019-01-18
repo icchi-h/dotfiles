@@ -5,7 +5,7 @@
 ################################################################
 # PATH
 ################################################################
-export PATH=$PATH:$HOME/usr/bin:/Users/icchi/programs/sh
+export PATH=$PATH:$HOME/bin
 
 # node.js
 export PATH=$PATH:$HOME/.nodebrew/current/bin
@@ -57,7 +57,10 @@ export EDITOR=/Applications/MacVim.app/Contents/MacOS/Vim
 alias mvim='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/bin/mvim "$@"'
 
 # homebrew config error for pyenv
-alias brew="PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin brew"
+# alias brew="PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin brew"
+
+# application
+alias typora="open -a typora"
 ################################################################
 
 
@@ -142,6 +145,7 @@ zplug 'zsh-users/zsh-autosuggestions', defer:2
 zplug "zsh-users/zsh-history-substring-search"
 bindkey '^P' history-beginning-search-backward
 bindkey '^N' history-beginning-search-forward
+# zplug "jimeh/zsh-peco-history"
 
 # enhancd
 zplug "b4b4r07/enhancd", use:init.sh

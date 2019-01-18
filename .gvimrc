@@ -3,8 +3,9 @@ set t_Co=256
 colorscheme onedark
 
 set guifont=Ricty\ Diminished:h17
+"set guifont=Cica:h17
+"
 set nobackup
-
 
 set tabstop=2
 set softtabstop=2
