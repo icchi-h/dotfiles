@@ -4,7 +4,7 @@ set t_Co=256
 colorscheme onedark
 
 " Font
-set guifont=Ricty\ Diminished:h16
+set guifont=Ricty\ Diminished:h17
 set nobackup
 
 " no .un~ file
@@ -22,7 +22,7 @@ let g:neocomplete#auto_completion_start_length = 3
 " let g:neocomplcache_enable_smart_case = 1
 
 " ファイル内の <Tab> が対応する空白の数。
-set tabstop=4
+set tabstop=2
 
 " <Tab> の挿入や <BS> の使用等の編集操作をするときに、<Tab> が対応する空白の数。
 set softtabstop=4
