@@ -13,14 +13,6 @@ set noundofile
 " 行番号の色
 highlight LineNr guifg=gray
 
-" neocomplete
-let g:neocomplete#enable_at_startup = 1
-let g:neocomplete#lock_iminsert = 1
-let g:neocomplete#auto_completion_start_length = 3
-
-" Use smartcase.
-" let g:neocomplcache_enable_smart_case = 1
-
 " ファイル内の <Tab> が対応する空白の数。
 set tabstop=4
 
@@ -81,15 +73,6 @@ let &t_EI = "\e]50;CursorShape=0\x7"
 " <TAB>: completion.
 inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 
-" NERDTree shortcut
-nnoremap <silent><C-e> :NERDTreeToggle<CR>
-
-" IndnetLine
-set list listchars=tab:\¦\
-let g:indentLine_color_term = 111
-let g:indentLine_color_gui = '#708090'
-"let g:indentLine_faster = 1
-
 " 文字が消せない問題
 "viとの互換性を無効にする(INSERT中にカーソルキーが有効になる)
 set nocompatible
@@ -105,7 +88,7 @@ set backspace=indent,eol,start
 "dein setting
 "--------------------------------------------------------------
 if &compatible
-  set nocompatible               " Be iMproved
+  set nocompatible " Be iMproved
 endif
 
 " Required:
@@ -129,6 +112,8 @@ call dein#add('tomtom/tcomment_vim')
 call dein#add('tpope/vim-surround')
 call dein#add('scrooloose/syntastic')
 call dein#add('posva/vim-vue')
+call dein#add('prettier/vim-prettier')
+call dein#add('scrooloose/nerdtree')
 
 " You can specify revision/branch/tag.
 call dein#add('Shougo/vimshell', { 'rev': '3787e5' })
@@ -146,3 +131,21 @@ if dein#check_install()
 endif
 "--------------------------------------------------------------
 
+"plugin setting
+"--------------------------------------------------------------
+" neocomplete
+let g:neocomplete#enable_at_startup = 1
+let g:neocomplete#lock_iminsert = 1
+let g:neocomplete#auto_completion_start_length = 3
+" Use smartcase.
+" let g:neocomplcache_enable_smart_case = 1
+
+" Indnet Line
+set list listchars=tab:\¦\
+let g:indentLine_color_term = 111
+let g:indentLine_color_gui = '#708090'
+"let g:indentLine_faster = 1
+
+" NERDTree
+nnoremap <silent><C-e> :NERDTreeToggle<CR>
+"--------------------------------------------------------------
