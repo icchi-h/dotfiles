@@ -4,7 +4,7 @@ set t_Co=256
 colorscheme onedark
 
 " Font
-set guifont=Ricty\ Diminished:h16
+set guifont=Cica:h17
 set nobackup
 
 " no .un~ file
