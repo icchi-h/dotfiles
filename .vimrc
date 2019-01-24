@@ -25,9 +25,9 @@ let g:neocomplete#auto_completion_start_length = 3
 set tabstop=4
 
 " <Tab> の挿入や <BS> の使用等の編集操作をするときに、<Tab> が対応する空白の数。
-set softtabstop=4
+set softtabstop=2
 " インデントの各段階に使われる空白の数。
-set shiftwidth=4
+set shiftwidth=2
 " Insertモードで <Tab> を挿入するとき、代わりに適切な数の空白を使う。（有効:expandtab/無効:noexpandtab）
 set expandtab
 
