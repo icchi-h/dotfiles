@@ -95,18 +95,6 @@ set -o ignoreeof
 ################################################################
 # Python
 ################################################################
-# virtualenv
-.Python
-[Bb]in
-[Ii]nclude
-[Ll]ib
-[Ll]ib64
-[Ll]ocal
-[Ss]cripts
-pyvenv.cfg
-.venv
-pip-selfcheck.json
-
 # virtualenvでpromptを変更しない
 # export VIRTUAL_ENV_DISABLE_PROMPT=1
 
