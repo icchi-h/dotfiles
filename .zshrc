@@ -26,6 +26,7 @@ fi
 
 # React-Native
 export ANDROID_HOME=$HOME/Library/Android/sdk
+
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 ################################################################
@@ -94,6 +95,18 @@ set -o ignoreeof
 ################################################################
 # Python
 ################################################################
+# virtualenv
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+.venv
+pip-selfcheck.json
+
 # virtualenvでpromptを変更しない
 # export VIRTUAL_ENV_DISABLE_PROMPT=1
 
