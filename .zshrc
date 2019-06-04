@@ -100,6 +100,9 @@ set -o ignoreeof
 
 # pythonのimport error対策
 export LC_ALL='ja_JP.UTF-8'
+
+# allow multiprocessing with high sierra
+export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 ################################################################
 
 
