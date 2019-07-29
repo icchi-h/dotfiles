@@ -51,8 +51,8 @@ set ruler
 set laststatus=2
 
 "コロンセミコロン入れ変え for 英字配列キーボード
-noremap ; :
-noremap : ;
+" noremap ; :
+" noremap : ;
 
 "view title
 set title
