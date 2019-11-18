@@ -84,6 +84,9 @@ set whichwrap=b,s,h,l,<,>,[,]
 " start   : 挿入モード開始位置より手前の文字
 set backspace=indent,eol,start
 
+" cron
+set backupskip=/tmp/*,/private/tmp/*
+
 
 "dein setting
 "--------------------------------------------------------------
