@@ -4,7 +4,7 @@ set t_Co=256
 colorscheme onedark
 
 " Font
-set guifont=Cica:h17
+set guifont=HackGen35:h17
 set nobackup
 
 " no .un~ file
@@ -117,6 +117,7 @@ call dein#add('scrooloose/syntastic')
 call dein#add('posva/vim-vue')
 call dein#add('prettier/vim-prettier')
 call dein#add('scrooloose/nerdtree')
+call dein#add('elzr/vim-json')
 
 " You can specify revision/branch/tag.
 call dein#add('Shougo/vimshell', { 'rev': '3787e5' })
@@ -151,4 +152,7 @@ let g:indentLine_color_gui = '#708090'
 
 " NERDTree
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
+
+" vim
+let g:vim_json_syntax_conceal = 0
 "--------------------------------------------------------------
