@@ -25,6 +25,9 @@ end
 ################################################
 # Alias
 ################################################
+# Mac
+alias o='open'
+
 # java
 alias javac='javac -J-Dfile.encoding=UTF-8'
 alias java='java -Dfile.encoding=UTF-8'
