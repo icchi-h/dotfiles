@@ -11,9 +11,8 @@ set PATH $HOME/bin $PATH
 # editor
 set EDITOR vim
 
-# nvm (node.js)
-set NVM_DIR $HOME/.nvm
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+# node.js (nodebrew)
+set PATH $HOME/.nodebrew/current/bin $PATH
 
 # golang
 if type -q go # `go`コマンドが存在すれば
