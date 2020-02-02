@@ -41,4 +41,7 @@ alias typora='open -a typora'
 ################################################
 # fzf
 set -U FZF_LEGACY_KEYBINDINGS 0
+
+# oh-my-zsh/theme-bobthefish
+set -g theme_display_date no
 ################################################
