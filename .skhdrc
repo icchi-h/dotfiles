@@ -130,10 +130,10 @@ alt - x : yabai -m space --mirror x-axis
 # alt - a : yabai -m space --toggle padding; yabai -m space --toggle gap
 
 # toggle window parent zoom
-# alt - d : yabai -m window --toggle zoom-parent
+alt - d : yabai -m window --toggle zoom-parent
 
 # toggle window fullscreen zoom
-# alt - f : yabai -m window --toggle zoom-fullscreen
+alt - f : yabai -m window --toggle zoom-fullscreen
 
 # toggle window native fullscreen
 # shift + alt - f : yabai -m window --toggle native-fullscreen
@@ -161,5 +161,5 @@ alt - e : yabai -m window --toggle split
 #           yabai -m window --toggle pip
 
 # change layout of desktop
-# ctrl + alt - a : yabai -m space --layout bsp
-# ctrl + alt - d : yabai -m space --layout float
+# ctrl + alt - a : yabai -m space --layout bsp    # bsp:   tile type
+# ctrl + alt - d : yabai -m space --layout float  # float: alone type
