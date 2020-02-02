@@ -4,7 +4,7 @@ set t_Co=256
 colorscheme onedark
 
 " Font
-set guifont=HackGen35:h17
+set guifont=HackGen35:h15
 set nobackup
 
 " no .un~ file
