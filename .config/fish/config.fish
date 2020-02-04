@@ -31,6 +31,9 @@ alias hist='history | fzf'
 # Mac
 alias o='open'
 
+# python
+alias python='python3'
+
 # java
 alias javac='javac -J-Dfile.encoding=UTF-8'
 alias java='java -Dfile.encoding=UTF-8'
