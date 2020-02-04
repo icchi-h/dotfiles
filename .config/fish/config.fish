@@ -47,4 +47,7 @@ set -U FZF_LEGACY_KEYBINDINGS 0
 
 # oh-my-zsh/theme-bobthefish
 set -g theme_display_date no
+
+# enhancd
+set -gx ENHANCD_FILTER "fzy:fzf:peco:percol:gof:pick:icepick:sentaku:selecta"
 ################################################
