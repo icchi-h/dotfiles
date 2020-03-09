@@ -6,20 +6,23 @@
 # PATH
 ################################################
 # bin
-set PATH $HOME/bin $PATH
+set -x PATH $HOME/bin $PATH
 
 # editor
-set EDITOR vim
+set -x EDITOR vim
 
 # node.js (nodebrew)
-set PATH $HOME/.nodebrew/current/bin $PATH
+set -x PATH $HOME/.nodebrew/current/bin $PATH
 
 # golang
 if type -q go # `go`コマンドが存在すれば
-    set GOROOT `go env GOROOT`
-    set GOPATH $HOME/Programs/go
-    set PATH $GOROOT/bin $GOPATH/bin $PATH
+    set -x -U GOROOT (go env GOROOT)
+    set -x -U GOPATH $HOME/.go
+    set -x -U PATH $GOROOT/bin $GOPATH/bin $PATH
 end
+
+# python
+#
 ################################################
 
 ################################################
