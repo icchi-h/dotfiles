@@ -34,6 +34,9 @@ alias hist='history | fzf'
 # Mac
 alias o='open'
 
+# python
+alias python='python3'
+
 # java
 alias javac='javac -J-Dfile.encoding=UTF-8'
 alias java='java -Dfile.encoding=UTF-8'
@@ -50,4 +53,7 @@ set -U FZF_LEGACY_KEYBINDINGS 0
 
 # oh-my-zsh/theme-bobthefish
 set -g theme_display_date no
+
+# enhancd
+set -gx ENHANCD_FILTER "fzy:fzf:peco:percol:gof:pick:icepick:sentaku:selecta"
 ################################################
