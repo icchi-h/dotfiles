@@ -43,6 +43,15 @@ alias java='java -Dfile.encoding=UTF-8'
 
 # Tools
 alias typora='open -a typora'
+
+# Commands
+alias g='git'
+alias gs='git status'
+alias gc='git commit'
+alias gd='git diff'
+alias ga='git add'
+alias gp='git push'
+
 ################################################
 
 ################################################
@@ -56,4 +65,10 @@ set -g theme_display_date no
 
 # enhancd
 set -gx ENHANCD_FILTER "fzy:fzf:peco:percol:gof:pick:icepick:sentaku:selecta"
+################################################
+
+################################################
+# Style
+################################################
+set fish_color_command green
 ################################################
