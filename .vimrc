@@ -119,6 +119,7 @@ call dein#add('prettier/vim-prettier')
 call dein#add('scrooloose/nerdtree')
 call dein#add('elzr/vim-json')
 call dein#add('airblade/vim-gitgutter')
+call dein#add('mechatroner/rainbow_csv')
 
 " You can specify revision/branch/tag.
 call dein#add('Shougo/vimshell', { 'rev': '3787e5' })
