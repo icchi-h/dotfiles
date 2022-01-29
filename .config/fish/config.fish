@@ -8,6 +8,11 @@
 # bin
 set -x PATH $HOME/bin $PATH
 
+# Homebrew
+if status is-interactive
+    eval (/opt/homebrew/bin/brew shellenv) # <= これを追加
+end
+
 # editor
 set -x EDITOR vim
 
