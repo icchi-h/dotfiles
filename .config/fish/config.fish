@@ -8,16 +8,13 @@
 # bin
 set -x PATH $HOME/bin $PATH
 
+# editor
+set -x EDITOR vim
+
 # Homebrew
 if status is-interactive
     eval (/opt/homebrew/bin/brew shellenv) # <= これを追加
 end
-
-# editor
-set -x EDITOR vim
-
-# node.js (nodebrew)
-set -x PATH $HOME/.nodebrew/current/bin $PATH
 
 # golang
 if type -q go # `go`コマンドが存在すれば
