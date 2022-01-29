@@ -1,47 +1,40 @@
 # My dotfiles basic
-基本的なdotfilesの管理リポジトリ
+
+基本的なdotfileの管理リポジトリ
 
 ## Usage
 
 Download dotfiles & make set symbolic link on Home direcotory
-```
-git clone --recursive https://github.com/icchi-h/dotfiles.git # clone with submodules (or git submodule init;git submodule update)
+
+```fish
+# clone with submodules (or git submodule init;git submodule update)
+git clone --recursive https://github.com/icchi-h/dotfiles.git
+
 cd <ripository>
 sh set-symboliclink.sh
 ```
 
 Set main shell script zsh
-```
-# install zsh
-# brew install zsh ? yum install zsh ?
 
-# check zsh path
-which zsh
+```fish
+# install shell
+# activate fish
+fish
 
 # set main shell
-chsh -s <zsh path>
+chsh -s (which fish)
+
 (** EC2の場合)
 sudo chsh ec2-user
-<zsh path>
-```
-
-Install zsh prompt
-<https://github.com/sindresorhus/pure#getting-started>
-```
-npm install --global pure-prompt
-```
-
-Install zsh plugin using zplug
-```
-zplug install
+<shell path>
 ```
 
 Install fzy for using enhancd package
 <https://github.com/jhawthorn/fzy#installation>
 
-
 Install vim plugin using dein
-```
+
+```fish
 # Open vim and install dein
 $ vim
 :call dein#install()
