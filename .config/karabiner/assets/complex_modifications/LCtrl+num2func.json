@@ -1,0 +1,105 @@
+{
+  "title": "Left ctrl + Nums(6~0) to Function Keys",
+  "rules": [
+    {
+      "description": "左Ctrl＋数字キーをFunction Keyにリマップする",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "6",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f6"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "7",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f7"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "8",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f8"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "9",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f9"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "0",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f10"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}

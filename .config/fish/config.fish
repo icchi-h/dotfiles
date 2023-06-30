@@ -18,6 +18,11 @@ set -x EDITOR vim
 set -x PATH $HOME/.anyenv/bin $PATH
 eval (anyenv init - | source)
 
+# Homebrew
+if status is-interactive
+    eval (/opt/homebrew/bin/brew shellenv) # <= これを追加
+end
+
 # golang
 if type -q go # `go`コマンドが存在すれば
     set -x -U GOROOT (go env GOROOT)
