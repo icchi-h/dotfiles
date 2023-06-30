@@ -8,11 +8,15 @@
 # bin
 set -x PATH $HOME/bin $PATH
 
+# Homebrew
+eval (/opt/homebrew/bin/brew shellenv)
+
 # editor
 set -x EDITOR vim
 
-# node.js (nodebrew)
-set -x PATH $HOME/.nodebrew/current/bin $PATH
+# anyenv
+set -x PATH $HOME/.anyenv/bin $PATH
+eval (anyenv init - | source)
 
 # golang
 if type -q go # `go`コマンドが存在すれば
