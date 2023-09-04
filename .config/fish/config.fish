@@ -14,9 +14,8 @@ eval (/opt/homebrew/bin/brew shellenv)
 # editor
 set -x EDITOR vim
 
-# anyenv
-set -x PATH $HOME/.anyenv/bin $PATH
-eval (anyenv init - | source)
+# asdf
+source /opt/homebrew/opt/asdf/libexec/asdf.fish
 
 # Homebrew
 if status is-interactive
@@ -82,3 +81,4 @@ set -gx ENHANCD_FILTER "fzy:fzf:peco:percol:gof:pick:icepick:sentaku:selecta"
 ################################################
 set fish_color_command green
 ################################################
+
