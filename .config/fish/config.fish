@@ -51,6 +51,8 @@ alias java='java -Dfile.encoding=UTF-8'
 
 # Tools
 alias typora='open -a typora'
+alias phpstorm='open -na "PhpStorm.app" --args $argv'
+alias mvim='/Applications/MacVim.app/Contents/bin/mvim $argv'
 
 # Commands
 alias g='git'
