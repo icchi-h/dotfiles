@@ -29,6 +29,10 @@ if type -q go # `go`コマンドが存在すれば
     set -x -U PATH $GOROOT/bin $GOPATH/bin $PATH
 end
 
+# GitHub
+eval (gh completion -s fish| source)
+
+
 # python
 #
 ################################################
@@ -51,8 +55,8 @@ alias java='java -Dfile.encoding=UTF-8'
 
 # Tools
 alias typora='open -a typora'
-alias phpstorm='open -na "PhpStorm.app" --args $argv'
-alias mvim='/Applications/MacVim.app/Contents/bin/mvim $argv'
+alias phpstorm="open -na PhpStorm.app --args $argv"
+alias mvim="/Applications/MacVim.app/Contents/bin/mvim $argv"
 
 # Commands
 alias g='git'
@@ -73,6 +77,7 @@ set -U FZF_LEGACY_KEYBINDINGS 0
 
 # oh-my-zsh/theme-bobthefish
 set -g theme_display_date no
+set -g theme_newline_cursor yes
 
 # enhancd
 set -gx ENHANCD_FILTER "fzy:fzf:peco:percol:gof:pick:icepick:sentaku:selecta"
