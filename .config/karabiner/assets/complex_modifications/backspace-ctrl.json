@@ -1,0 +1,29 @@
+{
+  "title": "Remap Ctrl+I to BackSpace",
+  "rules": [
+    {
+      "description": "左Ctrl＋IキーをBackSpaceにリマップする",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "i",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "delete_or_backspace"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}
