@@ -123,6 +123,16 @@ call dein#add('mechatroner/rainbow_csv')
 " You can specify revision/branch/tag.
 call dein#add('Shougo/vimshell', { 'rev': '3787e5' })
 
+call dein#add('Shougo/ddc.vim')
+call dein#add('vim-denops/denops.vim')
+" Install your UIs
+"call dein#add('Shougo/ddc-ui-native')
+" Install your sources
+"call dein#add('Shougo/ddc-source-around')
+" Install your filters
+"call dein#add('Shougo/ddc-matcher_head')
+"call dein#add('Shougo/ddc-sorter_rank')
+
 " Required:
 call dein#end()
 
