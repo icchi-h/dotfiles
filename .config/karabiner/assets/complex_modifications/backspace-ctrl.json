@@ -1,12 +1,12 @@
 {
-  "title": "Remap Ctrl+I to BackSpace",
+  "title": "Remap Ctrl+U to BackSpace and Ctrl+I to Delete",
   "rules": [
     {
-      "description": "左Ctrl＋IキーをBackSpaceにリマップする",
+      "description": "左Ctrl＋UキーをBackSpaceにリマップする",
       "manipulators": [
         {
           "from": {
-            "key_code": "i",
+            "key_code": "u",
             "modifiers": {
               "mandatory": [
                 "left_control"
@@ -19,6 +19,27 @@
           "to": [
             {
               "key_code": "delete_or_backspace"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "左Ctrl＋IキーをDeleteにリマップする",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "i",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "delete_forward"
             }
           ],
           "type": "basic"
