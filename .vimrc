@@ -105,15 +105,12 @@ call dein#begin('~/.vim/dein')
 call dein#add('Shougo/dein.vim')
 
 " Add or remove your plugins here:
-call dein#add('Shougo/neosnippet.vim')
-call dein#add('Shougo/neosnippet-snippets')
 call dein#add('Yggdroot/indentLine')
 call dein#add('mattn/emmet-vim')
 call dein#add('alvan/vim-closetag')
 call dein#add('tomtom/tcomment_vim')
-call dein#add('tpope/vim-surround')
+" call dein#add('tpope/vim-surround')
 call dein#add('scrooloose/syntastic')
-call dein#add('posva/vim-vue')
 call dein#add('prettier/vim-prettier')
 call dein#add('scrooloose/nerdtree')
 " call dein#add('elzr/vim-json')
@@ -148,10 +145,6 @@ endif
 
 "plugin setting
 "--------------------------------------------------------------
-" neocomplete
-let g:neocomplete#enable_at_startup = 1
-let g:neocomplete#lock_iminsert = 1
-let g:neocomplete#auto_completion_start_length = 3
 " Use smartcase.
 " let g:neocomplcache_enable_smart_case = 1
 
@@ -166,4 +159,7 @@ nnoremap <silent><C-e> :NERDTreeToggle<CR>
 
 " vim
 let g:vim_json_syntax_conceal = 0
+
+" fzf
+set rtp+=/opt/homebrew/opt/fzf
 "--------------------------------------------------------------

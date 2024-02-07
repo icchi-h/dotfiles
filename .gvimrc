@@ -2,7 +2,7 @@ syntax enable
 set t_Co=256
 colorscheme onedark
 
-set guifont=HackGen35:h17
+set guifont=HackGen35:h15
 "
 set nobackup
 

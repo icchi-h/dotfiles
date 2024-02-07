@@ -81,6 +81,7 @@ set -g theme_newline_cursor yes
 
 # enhancd
 set -gx ENHANCD_FILTER "fzy:fzf:peco:percol:gof:pick:icepick:sentaku:selecta"
+
 ################################################
 
 ################################################
